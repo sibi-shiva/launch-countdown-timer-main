@@ -1,31 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Launch countdown timer</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link
+			rel="stylesheet"
+			href="styles.css"
+			<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+		/>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<title>Frontend Mentor | Launch countdown timer</title>
 
-  We're launching soon
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="page-container">
+			<div id="content-wrap">
+				<img src="./images/bg-stars.svg" />
+				<div class="launch-text header">WE'RE LAUNCHING SOON</div>
+			</div>
+			<footer id="footer">
+				<div class="header responsive hills">
+					<img
+						class="social-icons"
+						src="./images/icon-facebook.svg"
+						alt="Facebook"
+					/>
+					<img
+						class="social-icons"
+						src="./images/icon-instagram.svg"
+						alt="Instagram"
+					/>
+					<img
+						class="social-icons"
+						src="./images/icon-pinterest.svg"
+						alt="Pinterest"
+					/>
+				</div>
+				<!-- <img
+					src="./images/pattern-hills.svg"
+					class="responsive"
+					alt="Kiwi standing on oval"
+				/> -->
+			</footer>
+		</div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<!-- <div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="scripts.js"></script>
+	</body>
 </html>
